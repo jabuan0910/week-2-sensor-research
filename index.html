@@ -1,114 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Meaningful Title</title>
-    <meta charset="utf-8">
-    <meta name="description" content="This is the text that appears along with the link in web search results.">
-    <meta name="keywords" content="Wrods you anticipate people will use in search engines to find this page.">
-    <meta name="author" content="Who wrote this?">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <!-- link rel="stylesheet" href="css/style.css" / -->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Abuan - Profile</title>
     <style>
-        div {
-            border: solid;
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
 
-
-        @media only screen and (min-width: 100px) {
-            /* For tablets: */
-
-            /* this will change the container class background to red when tablet*/
-
-            .col {
-                background-color: lavenderblush;
-            }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
 
-        @media only screen and (min-width: 768px) {
-            /* For desktop: will change the container class to orange*/
-
-            .col {
-                background-color: lightgray;
-            }
+        header {
+            background: #50b3a2;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
         }
 
-        @media only screen and (min-width: 992px) {
-            /* For desktop: will change the container class to orange*/
-
-            .col {
-                background-color: lightgoldenrodyellow;
-            }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
         }
 
-        @media only screen and (min-width: 1200px) {
-            /* For desktop: will change the container class to orange*/
-
-            .col {
-                background-color: lavender;
-            }
+        header ul {
+            padding: 0;
+            list-style: none;
         }
 
-        Orientation of landscape
-
-        @media only screen and (orientation: landscape) {
-            /* this will change the background to light blue when view is landscape */
-            background-color: lightblue;
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
         }
 
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight,
+        header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .profile-pic {
+            width: 250px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .about {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center; /* This will center the text inside the footer */
+            padding: 10px 0;
         }
     </style>
-
 </head>
+
 <body>
-
-
-    <div class="container-fluid">
-
-            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
-                <img src="img/PhilDuncan.jpg" style="height:150px; margin:0px;">
-                <p>
-                    Phil Duncan<br />
-                    phil dot duncan at bellevue college dot edu
-                </p>
-<p><a href="html/webresources.html">Web Resource</a></p>
-            </div><!-- port 1-->
-
-            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
-                <p>
-                    <span class="strong">Bio<br /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div> <!-- port 2-->
-
-            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-                Education<br />
-                1996 University of Wisconsin Milwaukee, MFA<br />
-                1993 University of Tennessee, BFA
-            </div> <!--land 3-->
-
-            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-                Experience<br />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div><!-- land 3-->
-            </!div>
-
-
-            <div class="row-fluid">
-                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Interests</div>
-                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Hobbies</div>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">My</span> Profile</h1>
             </div>
-            </!div>
-
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="html/sensor_review.html">Sensor Review</a></li>
+                    <!-- Add additional navigation here as needed -->
+                </ul>
+            </nav>
         </div>
+    </header>
 
+    <div class="about">
+        <img src="img/Snazziness_2023-10-30_23-21-23 copy.jpg" alt="James Abuan" class="profile-pic">
+        <h1>James Abuan</h1>
+        <p>I'm James Abuan, and I'm thrilled to be here learning and developing new skills. Let me take a moment to introduce myself. I've started with Bellevue College just this past year beginning fall 2023 in the professional certificate program in Web Development. I am a passionate Software Implementation Consultant who is dedicated to self-learning and problem-solving real world solutions.With a background in software technology working in fintech, I have a strong foundation in implementation onboarding customers. I'm always eager to learn and explore new topics and skills. This website serves as a platform to share my journey, experiences, and projects.</p>
+        <p>I have two dogs and there names are Luna and Cooper. Luna is a Siberian Husky and Cooper is a Rottweiler. He is only 4 months and barks like nobody's business! My wife and I enjoy the moments of taking them on early morning walks. Whenever we travel to the Philippines every year its always fun getting together with the cousins eating all kinds of local foods and homemade cook meals. There is never a dull moment!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 James Abuan</p>
+    </footer>
 </body>
+
 </html>
